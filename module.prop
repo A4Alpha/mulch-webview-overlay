@@ -1,0 +1,6 @@
+id=mulch-system-webview
+name=Mulch System WebView Overlay
+version=v0.1
+versionCode=00001
+author=alpha
+description=Enable the use of Mulch as the system WebView
