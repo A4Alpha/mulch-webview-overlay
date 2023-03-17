@@ -59,7 +59,7 @@ To ensure that the package is installed for both profiles install the package vi
 * After rebooting you can verify if the overlay has been successfully installed (optional):  
 `adb shell dumpsys webviewupdate`
 * If everything is ok, you should see the following message:  
-`org.mulch.webview is NOT installed.`
+`us.spotco.mulch_wv is NOT installed.`
 * Install Mulch SystemWebView as outlined above.
 
 ### Magisk
