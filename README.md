@@ -23,7 +23,7 @@ Although this method should work on all Android versions that support Mulch and 
 `adb sideload MulchSystemWebViewOverlay.zip`
 * If the installer complains about signature verification, install anyway by selecting **Yes**.
 * Reboot the device.
-* Download the latest Mulch SystemWebView release from [F-Droid](https://f-droid.org/en/packages/us.spotco.mulch_wv) or [gitlab](https://gitlab.com/divested-mobile/mulch/-/blob/master/prebuilt/arm64/webview.apk) and install it as you would a regular app.
+* Download the latest Mulch SystemWebView release from [F-Droid](https://f-droid.org/en/packages/us.spotco.mulch_wv) or [gitlab](https://gitlab.com/divested-mobile/mulch/-/raw/master/prebuilt/arm64/webview.apk) and install it as you would a regular app.
 * Lastly, navigate to *Settings > Developer options > WebView implementation* and select the appropriate package or run the following command:  
 `adb shell cmd webviewupdate set-webview-implementation us.spotco.mulch_wv`
 
